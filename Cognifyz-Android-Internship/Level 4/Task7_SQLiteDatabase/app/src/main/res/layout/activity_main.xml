@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Records Admin"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Full Name" android:inputType="textPersonName" android:layout_marginBottom="8dp"/>
+        <EditText android:id="@+id/etRoll" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Roll Number" android:inputType="text" android:layout_marginBottom="8dp"/>
+        <EditText android:id="@+id/etEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email Address" android:inputType="textEmailAddress" android:layout_marginBottom="8dp"/>
+        <EditText android:id="@+id/etCgpa" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Current CGPA" android:inputType="numberDecimal" android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD STUDENT TO DATABASE"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW REGISTERED STUDENTS"
+            android:backgroundTint="#607D8B"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>
